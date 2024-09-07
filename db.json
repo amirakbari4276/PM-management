@@ -1,0 +1,108 @@
+{
+  "devices": [
+    {
+      "id": "1",
+      "location_id": "1",
+      "name": "Device 1"
+    },
+    {
+      "id": "2",
+      "location_id": "2",
+      "name": "Device 2"
+    },
+    {
+      "id": "f8f7",
+      "location_id": "5973",
+      "name": "Device  3"
+    },
+    {
+      "id": "3ab2",
+      "location_id": "7824",
+      "name": "Device  4"
+    }
+  ],
+  "equipments": [
+    {
+      "id": "1",
+      "device_id": "1",
+      "name": "mouse"
+    },
+    {
+      "id": "2",
+      "device_id": "2",
+      "name": "keyboard"
+    },
+    {
+      "id": "3",
+      "device_id": "2",
+      "name": "tel"
+    },
+    {
+      "id": "0bec",
+      "name": "cabel",
+      "device_id": "f8f7"
+    }
+  ],
+  "locations": [
+    {
+      "id": "1",
+      "name": "room-1"
+    },
+    {
+      "id": "2",
+      "name": "room-2"
+    },
+    {
+      "id": "5973",
+      "name": "room-3"
+    },
+    {
+      "id": "7824",
+      "name": "room-4"
+    }
+  ],
+  "maintenance": [
+    {
+      "id": "229f",
+      "equipment_id": "0bec",
+      "type": "monthly",
+      "date": "2024-10-01",
+      "status": "completed"
+    },
+    {
+      "id": "7978",
+      "equipment_id": "3",
+      "type": "weekly",
+      "date": "2024-09-14",
+      "status": "completed"
+    },
+    {
+      "id": "a99d",
+      "equipment_id": "0bec",
+      "type": "monthly",
+      "date": "2024-09-07",
+      "status": "completed"
+    },
+    {
+      "id": "27d2",
+      "equipment_id": "1",
+      "type": "weekly",
+      "date": "2024-09-07",
+      "status": "pending"
+    },
+    {
+      "id": "6e5b",
+      "equipment_id": "0bec",
+      "type": "monthly",
+      "date": "2024-09-07",
+      "status": "pending"
+    },
+    {
+      "id": "81d1",
+      "equipment_id": "2",
+      "type": "yearly",
+      "date": "2024-09-25",
+      "status": "pending"
+    }
+  ]
+}
